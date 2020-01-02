@@ -1,11 +1,87 @@
- Volume in drive C has no label.
- Volume Serial Number is 8E22-DC63
+git config --global user.email "pramodhr260@gmmail.com"
+git config --global user.name "pramodhr"
 
- Directory of C:\Users\Pramodhr\Desktop\GitTest
+dir > test1.txt
+git init
+git status
+git add
+git commit -m "project or file name"
 
-03-01-2020  00:08    <DIR>          .
-03-01-2020  00:08    <DIR>          ..
-03-01-2020  00:07    <DIR>          .git
-03-01-2020  00:08                 0 test.txt
-               1 File(s)              0 bytes
-               3 Dir(s)  48,657,334,272 bytes free
+git remote add origin https://github.com/pramodhr/Repo1.git
+
+git push -u origin master
+git push -u origin master
+==================
+1. How to install Git on windows
+2. Adding project/files to git for tracking
+3. Git commands
+4. Pushing project to remote repository(github)
+_______________________________
+
+Step 1 : check if git is already installed git --version
+
+Step 2 : download and install git
+
+Step 3 : add your project to git
+
+Step 4 : commands git config --global user.email "yourGitHub@email.com"
+git config --global user.name "yourGitHubusername"
+
+- git init
+- git status
+- git add
+- git commit -m “…..”
+- git remote add origin https://github.com/RaghavAutomation/R...
+- git push -u origin master
+- git log
+- git —help
+
+Step 5 : adding project to remote repository (github)
+=============================
+1. What are branches
+2. How to create branch
+3. How to checkout branch
+4. How to merge branch to master
+5. How to delete branch (local and remote)
+_________________________________________
+
+Step 1 : Create branch git branch “branch name”
+
+Step 2 : Checkout branch
+git checkout “branch name”
+--Switched to branch 'MyNewBranch'
+
+touch test2.txt
+
+- git push -u origin “branch name”
+
+bfore merge we need to checkout to master and only we can see master files.
+
+Step 3 : Merge new branch in master branch
+git merge “branch name”
+
+- git push -u origin master
+
+it will checkout files in the brach to master local desktop
+---Branch master set up to track remote branch master from origin.
+push the files to master 
+
+Step 4 : Delete branch
+git branch -d “branch name” — delete from local
+git push origin —delete “branch name” — delete from remote
+==============
+
+Git and GitHub Beginner Tutorial 6 - How to send email from GitHub
+======================================================
+
+Today we will learn
+———————————
+How to trigger notification email from github
+whenever there is any change/commit in the project
+_________________________________________
+
+Step 1 : Github - Repository - Settings - integration & services - add email
+
+Step 2 : Test and validate by making some change in the project
+
+===========================================
