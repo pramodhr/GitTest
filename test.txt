@@ -1,0 +1,11 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 8E22-DC63
+
+ Directory of C:\Users\Pramodhr\Desktop\GitTest
+
+03-01-2020  00:08    <DIR>          .
+03-01-2020  00:08    <DIR>          ..
+03-01-2020  00:07    <DIR>          .git
+03-01-2020  00:08                 0 test.txt
+               1 File(s)              0 bytes
+               3 Dir(s)  48,657,334,272 bytes free
